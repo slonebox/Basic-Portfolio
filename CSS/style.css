@@ -9,15 +9,14 @@ header {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     margin: 0px auto;
-    
     width: 960px;
 }
 
 h2 {
     background-color: #ffffff;
     color: #4aaaa5;
-    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-left: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 20px;
 }
 
 h1 {
@@ -83,18 +82,39 @@ footer {
 }
 
 .project-left {
+    display: inline-block;
     height: 250px;
+    margin: 0px 20px 30px 30px;
+    position: relative;
     width: 250px;
 }
 
 .project-right {
+    display: inline-block;
     height: 250px;
+    position: relative;
     width: 250px;
 }
 
 .project-image {
+    display: inline-block;
     height: 250px;
     width: 250px;
+}
+
+.project_title {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    font-style: none;
+    margin: 0 auto;
+    padding: 10px 0px;   
+    position: absolute;    
+    text-align: center;
+    top: 70%; /* Adjust this value to move the positioned div up and down */
+    width: 100%;
+    z-index: 999;
 }
 
 #footer_text {
@@ -104,7 +124,6 @@ footer {
     border-color: #4aaaa5;
     color: #afafaf;
     font-size: 9pt;
-    padding-bottom: 10px;
     padding-top: 30px;
     text-align: center;
 }
