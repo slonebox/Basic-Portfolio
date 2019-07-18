@@ -46,6 +46,13 @@ a {
     padding: 10px 10px;
 }
 
+hr {
+    color: #777777;
+    margin: 0px auto 20px auto;
+    border: 1px solid #d3d3d3;
+    width: 900px;
+}
+
 .main_content {
     background-color: #ffffff;
     border-color: #777777;
@@ -91,8 +98,8 @@ a {
 }
 
 #vl {
-    border-left: 1px solid #777777;
-    border-right: 1px solid #777777;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
     color: #777777;
     display: inline-block;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
