@@ -5,7 +5,7 @@ body{
 
 header {
     background-color: #ffffff;
-    border-bottom-color: #777777;
+    border-bottom-color: #bfbfbf;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     margin: 0px auto;
@@ -76,7 +76,7 @@ footer {
 
 .main_content {
     background-color: #ffffff;
-    border-color: #777777;
+    border-color: #bfbfbf;
     border-style: solid;
     border-width: 1px;
     display: block;
