@@ -1,5 +1,5 @@
 body{
-    margin: 0px 0px;
+    margin: 0px 0px -20px 0px;
     background-image: url(/Homework/Images/papyrus/papyrus.png);
 }
 
@@ -57,7 +57,11 @@ form {
 }
 
 input {
+    color: #bfbfbf;
+    font-size: 14px;
     height: 20px;
+    padding-left: 5px;
+    position: relative;
     width: 99%;
 }
 
@@ -90,7 +94,13 @@ footer {
 }
 
 .message {
+    border: solid 1px #bfbfbf;
+    color: #bfbfbf;
+    font-size: 14px;
     height: 100px;
+    padding: 5px;
+    position: relative;
+    width: 99%;
 }
 
 .nav_bar {
@@ -140,6 +150,7 @@ footer {
 
 .submit {
     background-color: #4aaaa5;
+    border: none;
     color: #ffffff;
     font-size: 16px;
     height: 40px;
